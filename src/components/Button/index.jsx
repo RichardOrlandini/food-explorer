@@ -1,7 +1,6 @@
 import { useAuth } from "../../hooks/auth";
 import { Container } from "./style";
 
-
 export const Button= ({title,Icon = false, ...rest}) => {
   const {loading} = useAuth()
   return(
